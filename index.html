@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.webmanifest">
+    <title>Sparschwein</title>
+</head>
+<body>
+<img class = "schwein" src="https://cdn.pixabay.com/photo/2015/11/22/17/30/piggy-bank-1056615_960_720.jpg">
+<div id = "gesamt" class = "feld"></div>
+<div class="grid">
+<div class = "feld">
+<img class = "muenze" src = "https://cdn.pixabay.com/photo/2014/07/23/15/04/euro-400250_960_720.jpg">
+</div>
+<div class = "feld">
+<img class = "muenze" src = "https://cdn.pixabay.com/photo/2014/07/23/15/04/euro-400249_960_720.jpg">
+</div>
+<div id = "plus2" class = "feld" onclick="plus2()">
++
+</div>
+<div id = "plus1" class = "feld" onclick="plus1()">
++
+</div>
+<div id = "summe2" class = "feld">
+2€
+</div>
+<div id = "summe1" class = "feld">
+1€
+</div>
+<div id = "minus2" class = "feld" onclick="minus2()">
+-
+</div>
+<div id = "minus1" class = "feld" onclick="minus1()">
+-
+</div>
+</div>
+<div id="history"></div>
+</body>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</HTML>

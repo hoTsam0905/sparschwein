@@ -1,0 +1,50 @@
+.muenze {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+#summe2,
+#summe1 {
+    border: solid 3px black;
+    place-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.feld {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10vh;
+    border-radius: 10%;
+}
+
+#plus2,
+#plus1 {
+    background-color: green;
+
+}
+
+#minus2,
+#minus1 {
+    background-color: red;
+}
+
+img {
+    height: 25vh;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
